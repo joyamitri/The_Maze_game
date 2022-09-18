@@ -52,6 +52,8 @@ window.onload = function(){
     
 }
 
+/* ____________________________________________________________________________________________________ */
+
 //If the user touches the boundaries
 function overBoundary(){
     lost = true;
@@ -74,12 +76,16 @@ function overBoundary(){
     }
 }
 
+/*_____________________________________________________________________________________________________*/
+
 //Start the game when we hover over S
 function hover_start(){
     if(hover_e){
         hover = true;
     }
 }
+
+/*_____________________________________________________________________________________________________*/
 
 //refresh/restart when clicking on S
 function sClick(){
@@ -98,6 +104,8 @@ function sClick(){
     //document.location.reload(true);
     stat.textContent = "Begin by moving your mouse over the \"S\".";
 }
+
+/*_____________________________________________________________________________________________________*/
 
 //Check if the user won when hover over the E
 function end_game(){
